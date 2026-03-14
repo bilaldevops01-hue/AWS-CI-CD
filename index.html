@@ -2,36 +2,99 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>AAR DEMO | AWS CLOUD DEPLOYMENT</title>
+  <title>Linoop Tek | AWS CI/CD Deployment</title>
+
   <style>
     body {
-      color: #000080;
-      background-color: #FFFFFF;
+      margin: 0;
       font-family: Arial, sans-serif;
-      font-size: 14px;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      text-align: center;
     }
-    
+
+    .container {
+      margin-top: 80px;
+    }
+
+    img {
+      max-width: 200px;
+      margin-bottom: 30px;
+    }
+
     h1 {
-      font-size: 500%;
-      font-weight: normal;
-      margin-bottom: 0;
+      font-size: 48px;
+      margin-bottom: 10px;
     }
-    
+
     h2 {
-      font-size: 200%;
+      font-size: 28px;
       font-weight: normal;
-      margin-bottom: 0;
+      color: #d1ecff;
+    }
+
+    h3 {
+      margin-top: 30px;
+      font-weight: normal;
+      color: #f0f0f0;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.08);
+      padding: 40px;
+      border-radius: 10px;
+      width: 600px;
+      margin: auto;
+      box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+    }
+
+    a {
+      color: #7fd6ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #cfcfcf;
     }
   </style>
+
 </head>
+
 <body>
-  <div align="center">
-    <img src="https://s3.ap-south-1.amazonaws.com/www.basava.com/aar_logo_final.png" style="max-width: 20%;">
-    <h1>Congratulations!!! </h1>
-      <h2>Welcome to AAR SOURCE| Ram Hemareddy</h2>
-    <h3>This application was deployed using AWS CodeDeploy.</h3>
-    <p>For next steps, read the <a href="http://aws.amazon.com/documentation/codedeploy">AWS CodeDeploy Documentation</a>.</p>
+
+<div class="container">
+  <div class="card">
+
+    <img src="https://linoop101.s3.us-east-1.amazonaws.com/Linoop.png">
+
+    <h1>Welcome to Linoop Tek 🚀</h1>
+
+    <h2>CI/CD Deployment Successful</h2>
+
+    <h3>
+      This application was deployed automatically using
+      <b>AWS CodePipeline</b> and <b>AWS CodeDeploy</b>.
+    </h3>
+
+    <p>
+      Learn more about deployments in the
+      <a href="https://docs.aws.amazon.com/codedeploy/" target="_blank">
+      AWS CodeDeploy Documentation
+      </a>.
+    </p>
+
+    <div class="footer">
+      Powered by AWS | Linoop Tek DevOps Demo
+    </div>
+
   </div>
+</div>
+
 </body>
 </html>
-
